@@ -1,0 +1,148 @@
+﻿"lang"
+{
+	"Language"		"English"
+	"Tokens"
+	{		
+		"game_mode_15"				"Ataraxia"
+		"addon_game_name"			"Ataraxia"
+		"DOTA_GoodGuys"			    "Ataraxia"
+		
+		// DOTA 2 MODKIT GENERATED TOOLTIPS FOR: samplerts
+		// Keys already defined in addon_english.txt are not listed, nor are Modifiers with the property "IsHidden" "1".
+
+		// ******************** HEROES ********************
+		"npc_dota_hero_kunkka"                                                            "Builder"
+		"npc_dota_hero_crystal_maiden"													  "Apatheia"
+		"npc_dota_hero_templar_assassin"												  "Aponia"
+
+		// ******************** UNITS ********************
+		"tower"                                                                           "Tower"
+		"tower_tier2"                                                                     "Tower Tier 2"
+		"city_center"                                                                     "City Center"
+		"city_center_tier2"                                                               "City Center Tier 2"
+		"research_center"                                                                 "Research Center"
+		"dragon_tower"                                                                    "Dragon Tower"
+		"dark_tower"                                                                      "Dark Tower"
+		"wall"                                                                            "Wall"
+
+		// ******************** ABILITY MODIFIERS ********************
+		"DOTA_Tooltip_modifier_builder_repairing"                                         "Repairing"
+		"DOTA_Tooltip_modifier_builder_repairing_Description"                             "The builder is repairing"
+
+		"DOTA_Tooltip_modifier_repairing_building"                                        "Repairing"
+		"DOTA_Tooltip_modifier_repairing_building_Description"                            "This building is being repaired by nearby builders"
+
+		// ******************** ABILITIES ********************
+		// <b><font color='#eedd44'>Requires:\n - BuildingName</font></b>\n
+		"DOTA_Tooltip_ability_train_city_center_tier2"                                    "Upgrade to Tier 2"
+		"DOTA_Tooltip_ability_train_city_center_tier2_Description"                        "Allows for the construction of Dragon Towers and Ultimate research"
+		"DOTA_Tooltip_ability_train_city_center_tier2_build_time"                         "BUILD TIME:"
+		"DOTA_Tooltip_ability_train_city_center_tier2_gold_cost"                          "GOLD COST:"
+		"DOTA_Tooltip_ability_train_city_center_tier2_lumber_cost"                        "LUMBER COST:"
+
+		"DOTA_Tooltip_ability_train_city_center_tier2_disabled"                           "Upgrade to Tier 2 Disabled"
+		"DOTA_Tooltip_ability_train_city_center_tier2_disabled_Description"               "<b><font color='#eedd44'>Requires:\n - Tech Center</font></b>\n"
+
+		"DOTA_Tooltip_ability_train_tower_tier2"                                          "Upgrade to Tier 2"
+		"DOTA_Tooltip_ability_train_tower_tier2_Description"                              "Stronger tower"
+		"DOTA_Tooltip_ability_train_tower_tier2_build_time"                               "BUILD TIME:"
+		"DOTA_Tooltip_ability_train_tower_tier2_gold_cost"                                "GOLD COST:"
+		"DOTA_Tooltip_ability_train_tower_tier2_lumber_cost"                              "LUMBER COST:"
+
+		"DOTA_Tooltip_ability_train_dark_tower"                                           "Upgrade to Dark Tower"
+		"DOTA_Tooltip_ability_train_dark_tower_Description"                               "Ultimate tower"
+		"DOTA_Tooltip_ability_train_dark_tower_build_time"                                "BUILD TIME:"
+		"DOTA_Tooltip_ability_train_dark_tower_gold_cost"                                 "GOLD COST:"
+		"DOTA_Tooltip_ability_train_dark_tower_lumber_cost"                               "LUMBER COST:"
+
+		"DOTA_Tooltip_ability_train_dark_tower_disabled"                                  "Upgrade to Dark Tower Disabled"
+		"DOTA_Tooltip_ability_train_dark_tower_disabled_Description"                      "<b><font color='#eedd44'>Requires:\n - Tech Center</font></b>\n"
+
+		"DOTA_Tooltip_ability_build_tower"                                                "Build Tower"
+		"DOTA_Tooltip_ability_build_tower_Description"                                    "Classic auto-build tower.\nCan be upgraded"
+		"DOTA_Tooltip_ability_build_tower_build_time"                                     "BUILD TIME:"
+		"DOTA_Tooltip_ability_build_tower_gold_cost"                                      "GOLD COST:"
+		"DOTA_Tooltip_ability_build_tower_lumber_cost"                                    "LUMBER COST:"
+
+		"DOTA_Tooltip_ability_build_test_tower"                                           "Build Test Tower"
+		"DOTA_Tooltip_ability_build_test_tower_Description"                               "Classic auto-build test tower.\nCan be upgraded"
+		"DOTA_Tooltip_ability_build_test_tower_build_time"                                "BUILD TIME:"
+		"DOTA_Tooltip_ability_build_test_tower_gold_cost"                                 "GOLD COST:"
+		"DOTA_Tooltip_ability_build_test_tower_lumber_cost"                               "LUMBER COST:"
+
+		"DOTA_Tooltip_ability_build_city_center"                                          "Build City Center"
+		"DOTA_Tooltip_ability_build_city_center_Description"                              "Contains the "
+		"DOTA_Tooltip_ability_build_city_center_build_time"                               "BUILD TIME:"
+		"DOTA_Tooltip_ability_build_city_center_gold_cost"                                "GOLD COST:"
+		"DOTA_Tooltip_ability_build_city_center_lumber_cost"                              "LUMBER COST:"
+
+		"DOTA_Tooltip_ability_build_tech_center"                                          "Build Tech Center"
+		"DOTA_Tooltip_ability_build_tech_center_Description"                              "Contains the Dark Tower and Ultimate Ability researches"
+		"DOTA_Tooltip_ability_build_tech_center_build_time"                               "BUILD TIME:"
+		"DOTA_Tooltip_ability_build_tech_center_gold_cost"                                "GOLD COST:"
+		"DOTA_Tooltip_ability_build_tech_center_lumber_cost"                              "LUMBER COST:"
+
+		"DOTA_Tooltip_ability_build_tech_center_disabled"                                 "Build Tech Center Disabled"
+		"DOTA_Tooltip_ability_build_tech_center_disabled_Description"                     "<b><font color='#eedd44'>Requires:\n - Tower</font></b>\n"
+
+		"DOTA_Tooltip_ability_build_dragon_tower"                                         "Build Dragon Tower"
+		"DOTA_Tooltip_ability_build_dragon_tower_Description"                             "Builder goes inside and offers himself as sacrifice to build this greater tower"
+		"DOTA_Tooltip_ability_build_dragon_tower_build_time"                              "BUILD TIME:"
+		"DOTA_Tooltip_ability_build_dragon_tower_gold_cost"                               "GOLD COST:"
+		"DOTA_Tooltip_ability_build_dragon_tower_lumber_cost"                             "LUMBER COST:"
+
+		"DOTA_Tooltip_ability_build_dragon_tower_disabled"                                "Build Dragon Tower Disabled"
+		"DOTA_Tooltip_ability_build_dragon_tower_disabled_Description"                    "<b><font color='#eedd44'>Requires:\n - Tech Center\n - City Center Tier 2</font></b>\n"
+
+		"DOTA_Tooltip_ability_repair"                                                     "Repair"
+		"DOTA_Tooltip_ability_repair_Description"                                         "Repairs structures at the cost of resources."
+
+		"DOTA_Tooltip_ability_research_dark_tower"                                        "Research Dark Tower"
+		"DOTA_Tooltip_ability_research_dark_tower_Description"                            "Allows Dragon Towers to be upgraded into Dark Towers"
+		"DOTA_Tooltip_ability_research_dark_tower_research_time"                          "RESEARCH TIME:"
+		"DOTA_Tooltip_ability_research_dark_tower_gold_cost"                              "GOLD COST:"
+		"DOTA_Tooltip_ability_research_dark_tower_lumber_cost"                            "LUMBER COST:"
+
+		"DOTA_Tooltip_ability_research_ultimate_ability"                                  "Research Ultimate Ability"
+		"DOTA_Tooltip_ability_research_ultimate_ability_Description"                      "Lets you use your ultimate"
+		"DOTA_Tooltip_ability_research_ultimate_ability_research_time"                    "RESEARCH TIME:"
+		"DOTA_Tooltip_ability_research_ultimate_ability_gold_cost"                        "GOLD COST:"
+		"DOTA_Tooltip_ability_research_ultimate_ability_lumber_cost"                      "LUMBER COST:"
+
+		"DOTA_Tooltip_ability_research_ultimate_ability_disabled"                         "Research Ultimate Ability Disabled"
+		"DOTA_Tooltip_ability_research_ultimate_ability_disabled_Description"             "<b><font color='#eedd44'>Requires:\n - City Center Tier 2</font></b>\n"
+
+		"DOTA_Tooltip_ability_ultimate_ability"                                           "Ultimate Ability"
+		"DOTA_Tooltip_ability_ultimate_ability_Description"                               "This is supposed to do something fancy"
+
+		"DOTA_Tooltip_ability_ultimate_ability_disabled"                                  "Ultimate Ability Disabled"
+		"DOTA_Tooltip_ability_ultimate_ability_disabled_Description"                      "<b><font color='#eedd44'>Requires:\n -  Research Ultimate Ability</font></b>\n"
+
+		
+		// ******************** ITEMS ********************
+		"DOTA_Tooltip_ability_item_building_cancel"                                       "Building Cancel"
+		"DOTA_Tooltip_ability_item_building_cancel_Description"                           ""
+
+		"DOTA_Tooltip_ability_item_build_wall"                                            "Build Wall"
+		"DOTA_Tooltip_ability_item_build_wall_Description"                                ""
+		"DOTA_Tooltip_ability_item_build_wall_build_time"                                 "BUILD TIME:"
+		"DOTA_Tooltip_ability_item_build_wall_gold_cost"                                  "GOLD COST:"
+		"DOTA_Tooltip_ability_item_build_wall_lumber_cost"                                "LUMBER COST:"
+
+		"DOTA_Tooltip_ability_item_research_dark_tower"                                   "Cancel Research Dark Tower"
+		"DOTA_Tooltip_ability_item_research_dark_tower_Description"                       ""
+
+		"DOTA_Tooltip_ability_item_research_ultimate_ability"                             "CancelResearch Ultimate Ability"
+		"DOTA_Tooltip_ability_item_research_ultimate_ability_Description"                 ""
+
+		"DOTA_Tooltip_ability_item_train_city_center_tier2"                               "Cancel Upgrade to Tier 2"
+		"DOTA_Tooltip_ability_item_train_city_center_tier2_Description"                   ""
+
+		"DOTA_Tooltip_ability_item_train_tower_tier2"                                     "Cancel Upgrade to Tier 2"
+		"DOTA_Tooltip_ability_item_train_tower_tier2_Description"                         ""
+
+		"DOTA_Tooltip_ability_item_train_dark_tower"                                      "Cancel Upgrade to Dark Tower"
+		"DOTA_Tooltip_ability_item_train_dark_tower_Description"                          ""
+
+	}
+}

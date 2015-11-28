@@ -1,0 +1,11 @@
+"AddonInfo"
+{
+  "TeamCount" "1"
+  "maps"      "samplerts"
+  "IsPlayable"  "1"
+  "template_map"
+  {
+          "MaxPlayers"                    "2"
+  }
+
+}

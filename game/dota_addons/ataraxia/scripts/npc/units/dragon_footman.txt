@@ -1,0 +1,71 @@
+  "dota_npc_dragon_footman"
+  {
+    // General
+    //
+    "BaseClass"         "npc_dota_creature"  // Class of entity of link to.
+    "Model"                        "models/heroes/dragon_knight/dragon_knight.vmdl"// Model.
+    "ModelSize"                    "0.8"
+    "SoundSet"                     "Hero_DragonKnight"
+    "GameSoundsFile"               "soundevents/game_sounds_heroes/game_sounds_dragon_knight.vsndevts"
+    "IdleSoundLoop"                "Hero_DragonKnight.Tutorial_Intro"        // Name of sound set.
+    "Level"           "1"
+    
+    // Abilities
+    //----------------------------------------------------------------
+    
+    "Ability1"          ""      // Ability 1.
+
+    // Armor
+    //----------------------------------------------------------------
+    "ArmorPhysical"       "0"     // Physical protection.
+    "MagicalResistance"       "0"     // Magical protection.
+    "BoundsHullName"    "DOTA_HULL_SIZE_HERO"
+
+    // Attack
+    //----------------------------------------------------------------
+    "AttackCapabilities"    "DOTA_UNIT_CAP_NO_ATTACK"     // Type of attack - melee, ranged, etc.
+
+    // Attributes
+    //----------------------------------------------------------------
+    "AttributePrimary"      "DOTA_ATTRIBUTE_STRENGTH"
+    "AttributeBaseStrength"   "0"     // Base strength
+    "AttributeStrengthGain"   "0"     // Strength bonus per level.
+    "AttributeBaseIntelligence" "0"     // Base intelligence
+    "AttributeIntelligenceGain" "0"     // Intelligence bonus per level.
+    "AttributeBaseAgility"    "0"     // Base agility
+    "AttributeAgilityGain"    "0"     // Agility bonus per level.
+
+    // Bounty
+    //----------------------------------------------------------------
+    "BountyXP"          "0"     // Experience earn.
+    "BountyGoldMin"       "15"     // Gold earned min.
+    "BountyGoldMax"       "0"     // Gold earned max.
+
+    // Bounds
+    //----------------------------------------------------------------
+    "BoundsHullName"      "DOTA_HULL_SIZE_HERO"      // Hull type used for navigation/locomotion.
+
+    // Movement
+    //----------------------------------------------------------------
+    "MovementCapabilities"    "DOTA_UNIT_CAP_MOVE_GROUND"     // Type of locomotion - ground, air
+    "MovementSpeed"       "450"   // Speed
+    "MovementTurnRate"      "1.0"   // Turning rate.
+    "FollowRange"       "250"   // Distance to keep when following
+
+    // Status
+    //----------------------------------------------------------------
+    "StatusHealth"        "100"     // Base health.
+    "StatusHealthRegen"     "0"     // Health regeneration rate.
+    "StatusMana"        "0"     // Base mana.
+    "StatusManaRegen"     "0"     // Mana regeneration rate.
+
+    // Team
+    //----------------------------------------------------------------
+    "TeamName"          "DOTA_TEAM_BADGUYS"      // Team name.
+    
+    // Vision
+    //----------------------------------------------------------------
+
+    // Bots
+    //----------------------------------------------------------------
+  }

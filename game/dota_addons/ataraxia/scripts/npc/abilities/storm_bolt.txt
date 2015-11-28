@@ -1,0 +1,99 @@
+ "storm_bolt"
+{
+  "BaseClass"                 "ability_datadriven"
+  "AbilityTextureName"      "sven_storm_bolt"
+  "MaxLevel"            "3"
+
+  "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AUTOCAST| DOTA_ABILITY_BEHAVIOR_ATTACK"
+  "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_ENEMY"
+  "AbilityUnitTargetType"     "DOTA_UNIT_TARGET_ALL"
+  "AbilityUnitDamageType"     "DAMAGE_TYPE_MAGICAL"
+  "AbilityCastAnimation"      "ACT_DOTA_CAST_ABILITY_2"
+
+  "AbilityCastRange"        "500 600 700"
+  "AbilityCastPoint"        "0.0"
+  "AbilityCooldown"       "0.0"
+  "AbilityDamage"         "50 75 100"
+  "AbilityManaCost"       "0"
+  
+  "AbilitySpecial"
+    {
+        "01"
+        {
+            "var_type"          "FIELD_INTEGER"
+            "RangeDamage"       "50 100 150"
+        }
+    }
+
+  "precache"
+  {
+    "soundfile"     "soundevents/game_sounds_heroes/game_sounds_sven.vsndevts"
+    "particle"      "particles/units/heroes/hero_sven/sven_spell_storm_bolt.vpcf"
+    "particle"      "particles/units/heroes/hero_sven/sven_storm_bolt_projectile_explosion.vpcf"
+    "particle"      "particles/generic_gameplay/generic_stunned.vpcf"
+  }
+
+  "Modifiers"
+    {
+        "TestOrb_Modifier"
+        {
+            "Passive"     "1"
+            "IsHidden"    "1"
+            "Orb"
+            {
+                "Priority"          "DOTA_ORB_PRIORITY_ABILITY"
+                "ProjectileName"    "particles/units/heroes/hero_sven/sven_spell_storm_bolt.vpcf"
+                "CastAttack"        "1"
+            }
+            "OnOrbFire"
+            {
+                "SpendMana"
+                {
+                    "Mana"    "%AbilityManaCost"
+                }
+                "FireSound"
+                {
+                 "EffectName"    "Hero_Sven.StormBolt"
+                 "Target"      "CASTER"
+                }
+            }
+            "OnOrbImpact"
+            {
+                "FireEffect"
+                {
+                    "EffectName"            "particles/units/heroes/hero_sven/sven_spell_warcry.vpcf"
+                    "EffectAttachType"      "attach_hitloc"
+                    "Target"                "TARGET"
+                }
+                "FireSound"
+                {
+                 "EffectName"    "Hero_Sven.StormBoltImpact"
+                 "Target"      "CASTER"
+                }
+                "Damage"
+                {
+                    "Type"          "DAMAGE_TYPE_PURE"
+                    "Damage"        "%RangeDamage"
+                    "Target"
+                    {
+                        "Center"    "TARGET"
+                        "Teams"     "DOTA_UNIT_TARGET_TEAM_ENEMY"
+                        "Type"      "DOTA_UNIT_TARGET_ALL"
+                        "Radius"    "275"
+                    }
+                }
+                "Stun"
+                {
+                    "Duration"      "2"
+                    "Target"
+                    {
+                        "Center"    "TARGET"
+                        "Teams"     "DOTA_UNIT_TARGET_TEAM_ENEMY"
+                        "Type"      "DOTA_UNIT_TARGET_ALL"
+                        "Radius"    "275"
+                    }
+                }
+            }
+        }
+    }
+}
